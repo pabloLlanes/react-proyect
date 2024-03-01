@@ -1,7 +1,10 @@
 import './App.css';
+
 import ListadoDeCajas from './componentes/Cajas/ListadoCajas';
 import JurassicPark from './componentes/JurassicPark/JurassicPark';
-
+import ComponenteTareas from './componentes/ListaDeTareas/ComponenteTareas';
+import RickAndMorty from './componentes/RickAndMorty/page';
+import Verduleria from './componentes/Verduleria/Verduleria';
 
 function App() {
 
@@ -9,13 +12,17 @@ function App() {
 
   return (
     <div>
-      <h1>{saludoInicial}</h1>
+      <p>{saludoInicial}</p>
 
       {/*<ListadoDeCajas />*/}
 
-      <JurassicPark />
+      {/* <JurassicPark /> */}
 
+      {/* <ComponenteTareas /> */}
 
+      {/* <RickAndMorty /> */}
+
+      <Verduleria />
 
     </div>
   );
